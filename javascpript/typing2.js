@@ -138,7 +138,7 @@ function showResults() {
   timeEl.innerText = 60 - time;
 
   // Check if WPM is 30 or more before showing the button
-  if (wpm >=45) {
+  if (wpm >=40) {
     document.getElementById("claim-certificate-btn").style.display = "block";
   } else {
     document.getElementById("claim-certificate-btn").style.display = "none";
